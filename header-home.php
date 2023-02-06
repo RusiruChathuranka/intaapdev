@@ -29,8 +29,8 @@
                         </li> -->
                         <li class="nav-item"><a href="#home" class="nav-link smooth-scroll">Home</a></li>
                         <li class="nav-item"><a href="#feature" class="nav-link smooth-scroll">Skills</a></li>
-                        <li class="nav-item"><a href="#overview" class="nav-link smooth-scroll">Services</a></li>
-                        <li class="nav-item"><a href="#price" class="nav-link smooth-scroll">Pricing</a></li>
+                        <li class="nav-item"><a href="#customer-journey" class="nav-link smooth-scroll">Customer Journey</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link smooth-scroll">Services</a></li>
                         <li class="nav-item"><a href="#fAQ" class="nav-link smooth-scroll">FAQ</a></li>
                     </ul>
                     <div class="rt-menu-tolls">

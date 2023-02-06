@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rashni - Marketing and Software Landing Page Html Template</title>
+    <title>INTAAP</title>
     <!-- ==================Start Css Link===================== -->
     <link rel="icon" type="image/png" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -80,7 +80,49 @@
     
     <!-- !============= Header Area Start ===========! -->
  
- <?php include_once("header-home.php") ?>
+ <!-- !============= Header Area Start ===========!
+ -->
+ <header class="rt-site-header rt-sticky home-two white-menu bsnav">
+    <nav class="navbar navbar-expand-lg rt-one-page-menu">
+        <div class="container">
+    
+            <a href="#home" class="brand-logo smooth-scroll"><img src="assets/images/logo/intap-logo-white.png" alt=""></a>
+            <a href="#home" class="sticky-logo smooth-scroll"><img src="assets/images/logo/intap-logo-white.png" alt=""></a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNav"
+                aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="siteNav">
+                <ul class="navbar-nav ml-auto">
+                    
+                    <!--COMMENTED THE DROPDOWN MENU HERE                         
+                    <li class="nav-item active dropdown"><a href="index-3.htm" role="button"
+                            class="nav-link smooth-scroll dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">home</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        
+                            <a href="#home" class="nav-link smooth-scroll">home 3</a>
+                          
+                        </div>
+                    </li> -->
+                    <li class="nav-item"><a href="#home" class="nav-link smooth-scroll">Home</a></li>
+                    <li class="nav-item"><a href="#feature" class="nav-link smooth-scroll">Skills</a></li>
+                    <li class="nav-item"><a href="#customer-journey" class="nav-link smooth-scroll">Customer Journey</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link smooth-scroll">Services</a></li>
+                    <li class="nav-item"><a href="#fAQ" class="nav-link smooth-scroll">FAQ</a></li>
+                </ul>
+                <div class="rt-menu-tolls">
+                    <a href="#download" class="rt-btn rt-gradient pill text-uppercase smooth-scroll">Schedule a call</a>
+                </div>
+            </div>
+    
+        </div>
+    </nav>
+</header>
 
    
     <!-- !============= Banner Area Start ===========! -->
@@ -242,9 +284,7 @@
                 <div class="promo-data-text">
                     <h2 class="rt-section-title">Mobile app development</h2>
                     <p>
-                        Quality control of your data including read length distribution and uniformity assessment in a
-                        few clicks and choose
-                        your favorite technology.</p>
+                    Unleash the full potential of your business with our cutting-edge mobile app development, designed to meet your unique needs and exceed your expectations.</p>
                     <a href="#" class="rt-btn rt-gradient pill text-uppercase">Get a quote</a>
                 </div><!-- end data text -->
             </div><!-- end column -->
@@ -254,8 +294,7 @@
                 <div class="promo-data-text">
                     <h2 class="rt-section-title">Web application development</h2>
                     <p>
-                    Transform your online presence and stand out from the competition with our custom web applications, 
-                    tailored to your unique needs and optimized for success.</p>
+                    Transform your online presence and stand out from the competition with our custom web applications, tailored to your unique needs and optimized for success</p>
                     <a href="#" class="rt-btn rt-gradient pill text-uppercase">Get a quote</a>
                 </div><!-- end data text -->
             </div><!-- end colmn -->
@@ -269,147 +308,156 @@
 </section>
 
     <!-- 
-    !============= App Interface Area Start ===========!
+    !============= App Interface Area Start ===========-->
+ 
+
+    <!--============= feature Area Start ===========!
  -->
+<div class="spacer-150"></div>
+<section class="feature-area" data-scrollax-parent="true" id="customer-journey">
+    <div class="rt-design-elmnts one" data-scrollax="properties: { translateY: '140px' }"></div><!-- design elemenst 1 -->
+    <div class="rt-design-elmnts two" data-scrollax="properties: { translateX: '-100px', translateX: '100px' }"></div><!-- design elemenst 2 -->
+    <div class="rt-design-elmnts three" data-scrollax="properties: { translateY: '150px', translateX: '-120px' }"></div> <!-- design elemenst 3s -->
+    <div class="rt-overlay"></div><!-- end overlay -->
+    <div class="rt-custom-container">
+        <div class="row">
+            <div class="col-12 mx-auto text-center">
+                <div class="rt-section-title-wrapper">
+                    <h2 class="rt-section-title">
+                        Amazing Features
+                    </h2>
+                    <p>
+                        Quality control of your data including read length distribution.
+                    </p>
+                </div><!-- end section title -->
+            </div>
+        </div><!-- end row -->
+        <div class="spacer-85"></div><!-- end spacer -->
+        <div class="row">
+            <div class="col-xl-12 col-lg-12  mx-auto">
+                <ul class="nav rt-round-icon-tabs" id="rttabone" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="manegemnet-tab" data-toggle="tab" href="#manegemnet" role="tab"
+                            aria-controls="manegemnet" aria-selected="true"><i class="fas fa-search"></i></a>
+                        <span>Research & Consultant</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="dashboard-tab" data-toggle="tab" href="#dashboard" role="tab" aria-controls="dashboard"
+                            aria-selected="false"><i class="fas fa-comments"></i></a>
+                        <span>Contact & Consultation</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="storage-tab" data-toggle="tab" href="#storage" role="tab" aria-controls="storage"
+                            aria-selected="false"><i class="fas fa-file-contract"></i></a>
+                        <span>Proposal & Contract</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="notification-tab" data-toggle="tab" href="#design" role="tab"
+                            aria-controls="notifications" aria-selected="false"><i class="fas fa-pencil-ruler"></i></a>
+                        <span>Design & Development</span>
+                    </li>
 
-   <section class="app-interface">
-       <div class="container">
-           <div class="row">
-               <div class="col-12 text-center">
-                   <div class="rt-section-title-wrapper text-white">
-                       <h2 class="rt-section-title text-white">App Interface</h2>
-                       <p>Quality control of your data including read length distribution.</p>
-                   </div>
-               </div><!-- ./column -->
-           </div><!-- ./row -->
-       </div><!-- ./container -->
-        <!--==========================SWIPER STARTS HERE===========================-->
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="assets/images/all-img/research-and-discovery.png" /></div>
-            <div class="swiper-slide"><img src="assets/images/all-img/research-and-discovery.png" /></div>
-            <div class="swiper-slide"><img src="assets/images/all-img/research-and-discovery.png" /></div>
-            <div class="swiper-slide"><img src="assets/images/all-img/research-and-discovery.png" /></div>
-            <div class="swiper-slide"><img src="assets/images/all-img/research-and-discovery.png" /></div>
-            <div class="swiper-slide"><img src="assets/images/all-img/research-and-discovery.png" /></div>
-            <div class="swiper-slide"><img src="assets/images/all-img/research-and-discovery.png" /></div>
-            <div class="swiper-slide"><img src="assets/images/all-img/research-and-discovery.png" /></div>
-            <div class="swiper-slide"><img src="assets/images/all-img/research-and-discovery.png" /></div>
-            <div class="swiper-slide"><img src="assets/images/all-img/research-and-discovery.png" /></div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-    </div>
-<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js'></script>
-<script >var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-  spaceBetween: 0,
-        //loop: true,
-autoplay: 2500,
-        autoplayDisableOnInteraction: false,
-        slidesPerView: 4,
-        coverflow: {
-            rotate: 30,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows : true
-        }
-    });
+                    <li class="nav-item">
+                        <a class="nav-link" id="notification-tab" data-toggle="tab" href="#testing" role="tab"
+                            aria-controls="notifications" aria-selected="false"><i class="fas fa-flask"></i></a>
+                        <span>Testing & Deployment</span>
+                    </li>
 
-//# sourceURL=pen.js
-</script>
-</div>
+                    <li class="nav-item">
+                        <a class="nav-link" id="notification-tab" data-toggle="tab" href="#support" role="tab"
+                            aria-controls="notifications" aria-selected="false"><i class="fas fa-life-ring"></i></a>
+                        <span>Maintenance and Support</span>
+                    </li>
+                </ul><!-- end tab navs -->
+            </div><!-- end coluimn -->
+            <div class="col-12">
+                <div class="tab-content" id="rttaboneContent">
+                    <div class="tab-pane fade show active" id="manegemnet" role="tabpanel" aria-labelledby="manegemnet-tab">
+                        <img src="assets/images/all-img/research-and-consultant.png" alt="">
+                        <h5 style="margin:0 auto; width:50%; text-align:center;">The customer begins by researching different 
+                        mobile app and web development companies and comes across Intaap. They visit the company's website to learn more 
+                        about their services and read customer testimonials.</h5>
+                        
+                    </div><!-- end single tab -->
+                    <div class="tab-pane" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
+                        <img src="assets/images/all-img/contact-and-consultation.png" alt="">
+                        <h5 style="margin:0 auto; width:50%; text-align:center;">The customer contacts Intaap through the 
+                        website's contact form or by phone to schedule a consultation with a representative. During the consultation, 
+                        the customer discusses their project requirements and goals, and the representative provides recommendations and a rough estimate of costs.</h5>
+                    
+                    </div><!-- end single tab -->
+                    <div class="tab-pane" id="storage" role="tabpanel" aria-labelledby="storage-tab">
+                        <img src="assets/images/all-img/proposal-and-contract.png" alt="">
+                        <h5 style="margin:0 auto; width:50%; text-align:center;">Intaap provides the customer with a 
+                        detailed proposal outlining the scope of work and the estimated cost. Once the customer agrees to the proposal, they sign a contract with Intaap.</h5>
+                    
+                    </div><!-- end single tab -->
+                    <div class="tab-pane" id="design" role="tabpanel" aria-labelledby="storage-tab">
+                        <img src="assets/images/all-img/design-and-development.png" alt="">
+                        <h5 style="margin:0 auto; width:50%; text-align:center;">Once the development work is completed, Intaap conducts thorough testing 
+                        to ensure the app or website is functioning correctly. Once the customer has approved the final product, it is deployed to the app store 
+                        or live on the web.</h5>
+                    
+                    </div><!-- end single tab -->
+                    <div class="tab-pane" id="testing" role="tabpanel" aria-labelledby="notification-tab">
+                        <img src="assets/images/all-img/testing-and-deployment.png" alt="">
+                        <h5 style="margin:0 auto; width:50%; text-align:center;">Once the development work is completed, Intaap conducts thorough testing 
+                        to ensure the app or website is functioning correctly. Once the customer has approved the final product, it is deployed to the app store 
+                        or live on the web.</h5>
+                    </div><!-- end single tab -->
 
-<!--==========================SWIPER ENDS HERE===========================-->
+                    
+                    <div class="tab-pane" id="support" role="tabpanel" aria-labelledby="notification-tab">
+                        <img src="assets/images/all-img/maintenance-and-support.png" alt="">
+                        <h5 style="margin:0 auto; width:50%; text-align:center;">Intaap provides ongoing maintenance and support services to ensure the app or 
+                        website stays up-to-date and runs smoothly. The customer can contact Intaap at any time with any issues or concerns.</h5>
+                    </div><!-- end single tab -->
+
+                </div><!-- end tabs content -->
+            </div><!-- end column -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section>
+
+    <!--===========App interface ends =============-->
+
+        <!--===================== SERVICES AREA STARTS HERE ==============================-->
+
+        <div class="row" style="margin:100px;" id="services">
+            <div class="col-12 mx-auto text-center">
+                <div class="rt-section-title-wrapper">
+                    <h2 class="rt-section-title">
+                        More Reason to Choose This
+                    </h2>
+                    <p>
+                        Quality control of your data including read length distribution.
+                    </p>
+                </div><!-- end section title -->
+            </div>
+        </div><!-- end row -->
+    </div><!-- end container -->
+    <div class="dashbord-carosel-active owl-carousel">
+        <div class="single-dshbrd-caro">
+            <img src="assets/images/all-img/web-and-mobile.png" alt="dashbord_mockup_1" draggable="false">
             
-        </div> <!-- ./ interface active -->
-   </section>
+        </div><!-- end single caro -->
+        <div class="single-dshbrd-caro">
+            <img src="assets/images/all-img/enterprise-grade-software.png" alt="dashbord_mockup_1" draggable="false">
+        </div><!-- end single caro -->
+        <div class="single-dshbrd-caro">
+            <img src="assets/images/all-img/application-management.png" alt="dashbord_mockup_1" draggable="false">
+        </div><!-- end single caro -->
+        
+    </div><!-- end carosel active -->
 
 
 
-    <!-- 
-    !============= pricing area Area Start ===========!
+         <!--===================== SERVICES AREA ENDS HERE ==============================-->
+
+
+    <!--============= pricing area Area Start ===========!
  -->
-    <div class="spacer-150 price-space"></div><!-- ./spacer -->
-    <section class="price-area home-two" id="price">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="rt-section-title-wrapper">
-                        <h2 class="rt-section-title">Affordable Pricing for All</h2>
-                        <p>Quality control of your data including read length distribution.</p>
-                    </div><!-- ./ section title  -->
-                </div><!-- ./column -->
-            </div><!-- ./row -->
-            <div class="spacer-80"></div><!-- ./ spacer -->
-            <div class="row">
-                <div class="col-lg-4 mx-auto text-center col-md-6">
-                    <div class="single-price-table layout-three">
-                        <div class="price-header">
-                            <span class="package-title">Web application & mobile development</span>
-                            <!-- <span class="package-amount">$0<span>/</span><span>mo</span></span> -->
-                        </div><!-- ./ price header -->
-                        <div class="price-body">
-                            <ul>
-                                <li>Unlimited Pages</li>
-                                <li>All Team Members</li>
-                                <li>Unlimited Leads</li>
-                                <li>Unlimited Page Views</li>
-                                <li>Export in HTML/CSS</li>
-                            </ul>
-                        </div><!-- ./ price body -->
-                        <div class="price-footer">
-                            <a href="#">Get Started</a>
-                        </div><!-- ./price footer -->
-                    </div><!-- ./ prioce table -->
-                </div><!-- ./ column -->
-                <div class="col-lg-4 mx-auto text-center col-md-6">
-                    <div class="single-price-table layout-three">
-                        <div class="price-header">
-                            <span class="package-title">Enterprise grade software development</span>
-                            <!-- <span class="package-amount">$30<span>/</span><span>mo</span></span> -->
-                        </div><!-- ./ price header -->
-                        <div class="price-body">
-                            <ul>
-                                <li>Unlimited Pages</li>
-                                <li>All Team Members</li>
-                                <li>Unlimited Leads</li>
-                                <li>Unlimited Page Views</li>
-                                <li>Export in HTML/CSS</li>
-                            </ul>
-                        </div><!-- ./ price body -->
-                        <div class="price-footer">
-                            <a href="#">Get Started</a>
-                        </div><!-- ./price footer -->
-                    </div><!-- ./ prioce table -->
-                </div><!-- ./ column -->
-                <div class="col-lg-4 mx-auto text-center col-md-6">
-                    <div class="single-price-table layout-three">
-                        <div class="price-header">
-                            <span class="package-title">Application modernisation & management</span>
-                            <!-- <span class="package-amount">$60<span>/</span><span>mo</span></span> -->
-                        </div><!-- ./ price header -->
-                        <div class="price-body">
-                            <ul>
-                                <li>Unlimited Pages</li>
-                                <li>All Team Members</li>
-                                <li>Unlimited Leads</li>
-                                <li>Unlimited Page Views</li>
-                                <li>Export in HTML/CSS</li>
-                            </ul>
-                        </div><!-- ./ price body -->
-                        <div class="price-footer">
-                            <a href="#">Get Started</a>
-                        </div><!-- ./price footer -->
-                    </div><!-- ./ prioce table -->
-                </div><!-- ./ column -->
-            </div><!-- ./ row -->
-        </div><!-- ./container -->
-    </section>
+   
 
 
     <!-- 
@@ -428,7 +476,7 @@ autoplay: 2500,
             <div class="row">
                 <div class="col-12 mx-auto text-center">
                     <div class="rt-section-title-wrapper">
-                        <h2 class="rt-section-title">Latest Vacencies</h2>
+                        <h2 class="rt-section-title">Latest Vacancies</h2>
                         <p>Quality control of your data including read length distribution.</p>
                     </div><!-- end section title -->
                 </div><!-- ./ column -->
@@ -437,48 +485,58 @@ autoplay: 2500,
             <div class="row">
                 <div class="col-lg-4 mx-auto col-md-6">
                     <div class="blog-style-1">
-                        <a class="blog-thumb" href="senior-fullstack-developer.php">
+                        <a class="blog-thumb" href="senior-fullstack-developer.html">
                             <img src="assets/images/all-img/senior-fullstack-developer.jpg" alt="" draggable="false">
                         </a><!-- ./blog thumb -->
                         <div class="inner-content">
                             <div class="blog-meta">
-                                <span><a href="#"><i class="far fa-calendar-alt"></i>28 Jan, 2023</a></span>
+                                <!-- #9C4BFF -->
+                                <span><img src="assets/images/all-img/html.svg" alt="HTML" style="width: 1em; height: 1em;" ></img></span>
+                                <span><img src="assets/images/all-img/css-3.svg" alt="CSS" style="width: 1em; height: 1em;" ></img></span>
+                                <span><img src="assets/images/all-img/java-script.svg" alt="Java Script" style="width: 1em; height: 1em;" ></img></span>
+                                <!-- <span><a href="#"><i class="far fa-calendar-alt"></i>28 Jan, 2023</a></span> -->
                                 <!-- <span><a href="#"><i class="fas fa-user"></i>Admin</a></span> -->
                             </div><!-- ./blog meta -->
                             <div class="blog-footer">
-                                <h3><a href="senior-fullstack-developer.php">Senior Full Stack Developer</a></h3>
+                                <h3><a href="senior-fullstack-developer.html">Senior Full Stack Developer</a></h3>
                             </div><!-- ./inner content -->
                         </div><!-- ./inner content -->
                     </div><!-- ./blog style -->
                 </div><!-- ./ column -->
                 <div class="col-lg-4 mx-auto col-md-6">
                     <div class="blog-style-1">
-                        <a class="blog-thumb" href="web-and-mobility-solutions-architact.php">
+                        <a class="blog-thumb" href="web-and-mobility-solutions-architact.html">
                             <img src="assets/images/all-img/web-and-mobility-architect.jpg" alt="" draggable="false">
                         </a><!-- ./blog thumb -->
                         <div class="inner-content">
                             <div class="blog-meta">
-                                <span><a href="#"><i class="far fa-calendar-alt"></i>28 Jan, 2023</a></span>
+                            <span><img src="assets/images/all-img/html.svg" alt="HTML" style="width: 1em; height: 1em;" ></img></span>
+                                <span><img src="assets/images/all-img/css-3.svg" alt="CSS" style="width: 1em; height: 1em;" ></img></span>
+                                <span><img src="assets/images/all-img/wordpress-logo.svg" alt="Wordpress" style="width: 1em; height: 1em;" ></img></span>
+                                <!-- <span><a href="#"><i class="far fa-calendar-alt"></i>28 Jan, 2023</a></span> -->
                                 <!-- <span><a href="#"><i class="fas fa-user"></i>Admin</a></span> -->
                             </div><!-- ./blog meta -->
                             <div class="blog-footer">
-                                <h3><a href="web-and-mobility-solutions-architact.php">Web and Mobility Solution Architect</a></h3>
+                                <h3><a href="web-and-mobility-solutions-architact.html">Web and Mobility Solution Architect</a></h3>
                             </div><!-- ./inner content -->
                         </div><!-- ./inner content -->
                     </div><!-- ./blog style -->
                 </div><!-- ./ column -->
                 <div class="col-lg-4 mx-auto col-md-6">
                     <div class="blog-style-1">
-                        <a class="blog-thumb" href="senior-software-engineers.php">
+                        <a class="blog-thumb" href="senior-software-engineers.html">
                             <img src="assets/images/all-img/software-engineer.jpg" alt="" draggable="false">
                         </a><!-- ./blog thumb -->
                         <div class="inner-content">
                             <div class="blog-meta">
-                                <span><a href="#"><i class="far fa-calendar-alt"></i>28 Jan, 2023</a></span>
+                                <span><img src="assets/images/all-img/react.svg" alt="React" style="width: 1em; height: 1em;" ></img></span>
+                                <span><img src="assets/images/all-img/java-script.svg" alt="Java Script" style="width: 1em; height: 1em;" ></img></span>
+                                <span><img src="assets/images/all-img/node-js.svg" alt="Node JS" style="width: 1em; height: 1em;" ></img></span>
+                                <!-- <span><a href="#"><i class="far fa-calendar-alt"></i>28 Jan, 2023</a></span> -->
                                 <!-- <span><a href="#"><i class="fas fa-user"></i>Admin</a></span> -->
                             </div><!-- ./blog meta -->
                             <div class="blog-footer">
-                                <h3><a href="senior-software-engineers.php">Senior Software Engineers</a></h3>
+                                <h3><a href="senior-software-engineers.html">Senior Software Engineers</a></h3>
                             </div><!-- ./inner content -->
                         </div><!-- ./inner content -->
                     </div><!-- ./blog style -->
@@ -496,7 +554,7 @@ autoplay: 2500,
 <section class="faq-section home-three" id="fAQ">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <h3 class="rt-section-title down-title">faq's</h3>
                 <div id="accordion">
                     <div class="card wow fadeInUp">

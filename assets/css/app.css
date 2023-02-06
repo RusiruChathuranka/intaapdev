@@ -3816,7 +3816,7 @@ display: none;
     width: 324px;
     height: 324px;
 
-    background-color: #346bf0;
+    background-color: #989898;
 }
 
 .rt-round-icon-tabs
@@ -3837,11 +3837,11 @@ display: none;
 }
 .rt-round-icon-tabs li.nav-item .nav-link
 {
-    font-size: 35px;
-    line-height: 100px;
+    font-size: 15px;
+    line-height: 42px;
 
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     margin-right: auto;
     margin-left: auto;
 
@@ -3874,11 +3874,11 @@ display: none;
 .rt-round-icon-tabs li.nav-item .nav-link.active
 {
     color: #fff; 
-    background-color: #31e1a1;
+    background-color: #000000;
 }
 .rt-round-icon-tabs li.nav-item span
 {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
 
     display: block;

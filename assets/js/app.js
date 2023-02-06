@@ -2,11 +2,11 @@
 
 /*
 * ----------------------------------------------------------------------------------------
-    Template Name: RainyTheme
-    Template URI: http://rainytheme.com/
+    Template Name: NmoreSolutions
+    Template URI: http://nmoresolutions.com/
     Description: 
-    Author: mahedi amin
-    Author URI: http://rainytheme.com/
+    Author: Rusiru Chathuranka
+    Author URI: http://nmoresolutions.com/
     Version: 1.0.0
 
 
