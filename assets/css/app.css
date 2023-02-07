@@ -4747,6 +4747,8 @@ display: none;
 
     border-radius: 10px;
     background-color: #31348c;
+    margin-top: -100px;
+    margin-bottom: 80px;
 }
 .design-box .box-design-elemnts
 {
