@@ -1331,8 +1331,8 @@ p
 .single-price-table.layout-two .price-footer a
 {
     color: #fff; 
-    border-color: #0d9cea;
-    background: #0d9cea;
+    background-image: -webkit-linear-gradient(94deg, #ff6a8c 0%, #f83160 100%);
+    background-image:         linear-gradient(-4deg, #ff6a8c 0%, #f83160 100%);
 }
 .rt-secondary:hover,
 .vp-pagination__style-default .vp-pagination__item > :hover,
@@ -1347,10 +1347,11 @@ p
 .vp-filter__style-default .vp-filter__item.vp-filter__item-active > :active,
 .single-price-table.layout-two .price-footer a:active
 {
-    border-color: #0b85c7;
-    background: #0b85c7;
-    -webkit-box-shadow: 0 15px 20px 0 rgba(13, 156, 234, .15);
-            box-shadow: 0 15px 20px 0 rgba(13, 156, 234, .15);
+    
+    background: -webkit-linear-gradient(248deg, #ed2c2c 0%, #ff6a00 100%);
+    background:         linear-gradient(-158deg, #ff0000 0%, #e66767 100%);
+    -webkit-transition: all .36s cubic-bezier(.47, 0, .745, .715);
+            transition: all .36s cubic-bezier(.47, 0, .745, .715);
 }
 
 .rt-light
@@ -2658,7 +2659,9 @@ span.menu-title
     -webkit-box-shadow: none;
             box-shadow: none;
 }
-
+.blog-content-area{
+    margin-bottom: 100px;
+}
 /*2.1 blog Css*/
 .blog-area
 {
@@ -3696,7 +3699,19 @@ span.menu-title
     margin-top: -100px;
     margin-bottom: 80px;
 }
-
+.web-development{
+    margin-top:100px;
+}
+/* .laptop-screen{
+    position: absolute;
+    width: 24%;
+  
+    top: 451px;
+    
+    right: 366px;
+    font-size: 16px;
+    z-index: 100;
+} */
 /*2.5 feature css*/
 .feature-area,
 .blog-area,
@@ -3816,7 +3831,7 @@ display: none;
     width: 324px;
     height: 324px;
 
-    background-color: #989898;
+    background-color: #dddcdc;
 }
 
 .rt-round-icon-tabs
@@ -3837,11 +3852,11 @@ display: none;
 }
 .rt-round-icon-tabs li.nav-item .nav-link
 {
-    font-size: 15px;
-    line-height: 42px;
+    font-size: 35px;
+    line-height: 100px;
 
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin-right: auto;
     margin-left: auto;
 
@@ -4747,8 +4762,7 @@ display: none;
 
     border-radius: 10px;
     background-color: #31348c;
-    margin-top: -100px;
-    margin-bottom: 80px;
+    
 }
 .design-box .box-design-elemnts
 {
@@ -5428,7 +5442,7 @@ display: none;
 }
 .breadcump-area .bread-cumb-content
 {
-    padding-top: 230px;
+    padding-top: 300px;
 }
 @media (max-width: 991.98px)
 {
@@ -5445,7 +5459,7 @@ display: none;
 
     margin: 0 0 15px;
 
-    color: #132150;
+    color: #ffffff;
 }
 @media (max-width: 767.98px)
 {
@@ -7071,6 +7085,7 @@ a.cmnt-link-share i.fa
 {
     margin-top: 250px;
     padding-bottom: 40px;
+    padding-top: 100px;
 }
 
 /*# sourceMappingURL=app.css.map */
