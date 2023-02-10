@@ -31,7 +31,7 @@
 
      <!-- !============= Header Area Start ===========! -->
  
-<!-- !============= Header Area Start ===========!
+ <!-- !============= Header Area Start ===========!
  -->
  <header class="rt-site-header rt-sticky home-two white-menu bsnav">
     <nav class="navbar navbar-expand-lg rt-one-page-menu">
@@ -60,11 +60,11 @@
                           
                         </div>
                     </li> -->
-                    <li class="nav-item"><a href="#home" class="nav-link smooth-scroll">Home</a></li>
-                    <li class="nav-item"><a href="#feature" class="nav-link smooth-scroll">Skills</a></li>
-                    <li class="nav-item"><a href="#customer-journey" class="nav-link smooth-scroll">Customer Journey</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link smooth-scroll">Services</a></li>
-                    <li class="nav-item"><a href="#fAQ" class="nav-link smooth-scroll">FAQ</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link smooth-scroll">Home</a></li>
+                    <li class="nav-item"><a href="index.html#feature" class="nav-link smooth-scroll">Skills</a></li>
+                    <li class="nav-item"><a href="index.html#overview" class="nav-link smooth-scroll">Customer Journey</a></li>
+                    <li class="nav-item"><a href="index.html#price" class="nav-link smooth-scroll">Services</a></li>
+                    <li class="nav-item"><a href="index.html#fAQ" class="nav-link smooth-scroll">FAQ</a></li>
                 </ul>
                 <div class="rt-menu-tolls">
                     <a href="#download" class="rt-btn rt-gradient pill text-uppercase smooth-scroll">Schedule a call</a>
@@ -88,13 +88,7 @@
             <div class="row page-banner-height">
                 <div class="col-12 text-center">
                     <div class="bread-cumb-content">
-                        <h3>Latest Vacancies</h3>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Latest Vacancies</li>
-                            </ol>
-                        </nav>
+                        <h3>Senior Full Stack Developer</h3>
                     </div><!-- ./ breadcumb content -->
                 </div><!-- ./coulmn -->
             </div><!-- ./row -->
@@ -110,19 +104,17 @@
                 <div class="col-lg-7">
                     <div class="all-blog-post">
                         <article class="single-blg-post">
-                            <a href="#" class="post-thumbnail">
-                                <img src="assets/images/all-img/post1.jpg" alt="">
-                            </a>
+                            
                             <div class="entry-content">
                                 <header class="entry-header">
                                     <div class="entry-meta">
-                                        <span><a href="#"><i class="far fa-calendar-alt"></i>08 Dec,
-                                                2021</a></span><span><a href="#"><i
-                                                    class="fas fa-user"></i>Admin</a></span> <span><a href="#"><i
-                                                    class="fas fa-tag"></i>Design, Aaency</a></span>
+                                    <span><img src="assets/images/all-img/html.svg" alt="HTML" style="width: 1em; height: 1em;" ></img></span>
+                                <span><img src="assets/images/all-img/css-3.svg" alt="CSS" style="width: 1em; height: 1em;" ></img></span>
+                                <span><img src="assets/images/all-img/java-script.svg" alt="Java Script" style="width: 1em; height: 1em;" ></img></span>
+                                <span><a href="#"><i class="fas fa-tag"></i>Design, Aaency</a></span>
                                     </div><!-- .entry-meta -->
                                     <h2 class="entry-title">
-                                        <a href="#" rel="bookmark">Senior Full Stack Developer</a>
+                                        Job role
                                     </h2>
                                 </header><!-- .entry header -->
 
@@ -175,37 +167,27 @@
 
 
                         <!--============apply form starts===============-->
+
+                        <div class="leave-a-replay-box">
+                                <h3 class="commetns-title">Apply for the job</h3>
+                                <p>Your email address will not be published. Required fields are marked *</p>
+                                <form>
+                                   
+                                          <input type="text" class="form-control" placeholder=" Name">
+                                        
+                                            <input type="email" class="form-control" placeholder="mail">
+                                            
+                                            <textarea class="form-control" placeholder="write your message"></textarea>
+                                            <!-- <input type="file" class="from-control" accept="image/*,.pdf" /> -->
+                                        
+                                      
+                                            <button type="submit" class="rt-btn rt-secondary pill text-uppercase">Submit</button>
+                                        
+                            
+                                </form>
+                            </div>
                         
-                <div class="design-box style-three">
-                    <h4>Contact Us</h4>
-                    <form id="form-id">
-                        <input type="text" class="from-control" placeholder="Your Name">
-                        <input type="email" class="from-control" placeholder="Your Mail">
-                        <input type="tel" class="from-control" placeholder="Your Phone">
-                        <input type="text" class="from-control" placeholder="Your Address">
-                        <input type="file" class="from-control" accept="image/*,.pdf" />
-                        <textarea class="from-control" placeholder="Your Messege"></textarea>
-                        <input type="submit" value="Send messege" class="rt-btn rt-light pill">
-                    </form>
-                    <script>
-    $('#form-id').submit(function(e) {
-        e.preventDefault();
-        var formData = new FormData(this);
-        $.ajax({
-            type: 'POST',
-            url: 'form-handler.php',
-            data: formData,
-            success: function(response) {
-                $('#response').html(response);
-            },
-            cache: false,
-            contentType: false,
-            processData: false
-        });
-    });
-</script>
                 
-            </div><!-- ./ column -->
             <!--============apply form ends===============-->
                         
                         
@@ -215,94 +197,7 @@
 
 
                <!--=========================sidebar starts===============-->
-               <div class="col-lg-5">
-                <div class="sidebar-group">
-                    <!-- <div class="widget widget_search">
-                        <h3 class="widget-title">Recent vacancies</h3>
-                        <form>
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="search"
-                                    aria-label="Example text with button addon" aria-describedby="button-addon1">
-                                <div class="input-group-prepend">
-                                    <button class="btn rt-secondary" type="button" id="button-addon1"><i
-                                            class="icofont-search"></i></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div> -->
-                    <!--  ./ single widget -->
-                    <div class="widget widget_social_media">
-                        <h2 class="widget-title">Follow Us</h2>
-                        <ul>
-                            <li><a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="#" class="twitter"><i class="fab fa-twitter-square"></i></a></li>
-                            <li><a href="#" class="g-pluse"><i class="fab fa-google-plus-square"></i></a></li>
-                            <li><a href="#" class="instra"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-
-                    </div><!-- ./  single widget -->
-                    <div class="widget">
-                        <h2 class="widget-title">Recent Posts</h2>
-                        <div class="rt-widget-recent-posts">
-                            <ul class="posts">
-                                <li>
-                                    <a href="#"><img src="assets/images/all-img/recent_post_1.jpg"
-                                            alt="Make your everyday life easy from now"
-                                            class="widget-posts-img"></a>
-                                    <div class="widget-posts-descr">
-                                        <a href="#" class="title">Senior Software Engineers - ReactJS / React Native</a>
-                                        <div class="date">2 days ago</div>
-                                    </div>
-                                </li><!-- ./ single post -->
-                                <li>
-                                    <a href="#"><img src="assets/images/all-img/recent_post_2.jpg"
-                                            alt="Make your everyday life easy from now"
-                                            class="widget-posts-img"></a>
-                                    <div class="widget-posts-descr">
-                                        <a href="#" class="title">Web and Mobility Solution Architect</a>
-                                        <div class="date">2 days ago</div>
-                                    </div>
-                                </li><!-- ./ single post -->
-                                <li>
-                                    <a href="#"><img src="assets/images/all-img/recent_post_3.jpg"
-                                            alt="Make your everyday life easy from now"
-                                            class="widget-posts-img"></a>
-                                    <div class="widget-posts-descr">
-                                        <a href="#" class="title">Dont be upset when you are in work</a>
-                                        <div class="date">2 days ago</div>
-                                    </div>
-                                </li><!-- ./ single post -->
-                            </ul>
-
-                        </div>
-                    </div><!-- ./  single widget -->
-                    <div class="widget widget_categories">
-                        <h2 class="widget-title">Categories</h2>
-                        <ul>
-                            <li><a href="#" class="tag-cloud-link">Full stack developers</a></li>
-                            <li><a href="#" class="tag-cloud-link">Web application</a></li>
-                            <li><a href="#" class="tag-cloud-link">Mobile application</a></li>
-                            
-                        </ul>
-                    </div><!-- ./  single widget -->
-                    <div class="widget widget_tag_cloud">
-                        <h2 class="widget-title">tags</h2>
-                        <div class="tagcloud">
-                            <a href="#" class="tag-cloud-link">Technology</a>
-                            <a href="#" class="tag-cloud-link">Mobile</a>
-                            <a href="#" class="tag-cloud-link">Desktop</a>
-                            <a href="#" class="tag-cloud-link">Front end</a>
-                            <a href="#" class="tag-cloud-link">Back end</a>
-                            <a href="#" class="tag-cloud-link">Full stack</a>
-                        </div>
-                    </div><!-- ./  single widget -->
-                    <div class="widget widget_add">
-                        <a href="#">
-                            <img src="assets/images/all-img/widget_add.jpg" alt="widget add" draggable="false">
-                        </a>
-                    </div><!-- ./  single widget -->
-                </div><!-- ./sidebar -->
-            </div><!-- ./column -->
+               <?php include_once("sidebar.php") ?>
                <!--=========================sidebar ends===============-->
 
 
@@ -312,20 +207,20 @@
     <!-- 
     !============= Footer Area Start ===========!
     -->
-    <footer class="rt-site-footer main-footer">
+    <footer class="rt-site-footer has-bg-gray">
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 mx-auto">
                         <div class="rt-single-widget">
                             <a href="index.html">
-                                <img src="assets/images/logo/logo.png" alt="" draggable="false" class="rt-footer-logo">
+                                <img src="assets/images/logo/intap-logo-black.png" alt="" draggable="false" class="rt-footer-logo">
                             </a>
                             <p>Landing Page Builder is a hosted platform powered by the Brizy builder aiming to connect
                                 you with
                                 potential clients.</p>
                             <div class="copy-text">
-                                <p>2021 Copyright <a href="#">Rashni</a> . All Rights Reserved</p>
+                                <p>2023 Copyright <a href="#">Rashni</a> . All Rights Reserved</p>
                             </div>
                         </div><!-- ./ single widget -->
                     </div><!-- ./ column -->
@@ -334,35 +229,23 @@
                             <h4 class="rt-footer-title">Company</h4>
                             <ul>
                                 <li><a href="#">About us</a></li>
-                                <li><a href="#">Our Team</a></li>
-                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Our Services</a></li>
                                 <li><a href="#">Contact</a></li>
-                                <li><a href="#">About us</a></li>
                             </ul>
                         </div><!-- ./ single widget -->
                     </div><!-- ./column -->
-                    <div class="col-lg-2 col-md-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="rt-single-widget">
-                            <h4 class="rt-footer-title">Product</h4>
+                            <h4 class="rt-footer-title">Services</h4>
                             <ul>
-                                <li><a href="#">Feature</a></li>
-                                <li><a href="#">Pricing</a></li>
-                                <li><a href="#">Credit</a></li>
-                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Web development</a></li>
+                                <li><a href="#">Mobile Development </a></li>
+                                <li><a href="#">Enterprise grade software development</a></li>
+                                <li><a href="#">Application modernisation & management</a></li>
                             </ul>
                         </div><!-- ./ single widget -->
                     </div><!-- ./column -->
-                    <div class="col-lg-2 col-md-4">
-                        <div class="rt-single-widget">
-                            <h4 class="rt-footer-title">Download</h4>
-                            <ul>
-                                <li><a href="#">iOS</a></li>
-                                <li><a href="#">Android</a></li>
-                                <li><a href="#">Microsoft</a></li>
-                                <li><a href="#">Desktop</a></li>
-                            </ul>
-                        </div><!-- ./ single widget -->
-                    </div><!-- ./column -->
+                    
                     <div class="col-lg-2 col-md-4">
                         <div class="rt-single-widget">
                             <h4 class="rt-footer-title">Support</h4>
