@@ -3739,6 +3739,28 @@ span.menu-title
         padding: 58px 0;
     }
 }
+
+/* rt-overlay right */
+.feature-area .rt-overlay-right, .blog-area .rt-overlay-right, .dashbporad-area .rt-overlay-right {
+    position: absolute;
+    top: 100px;
+    right: -58px;
+    width: 100vw;
+    height: calc(100% - 100px);
+    -webkit-transform: rotate(
+4deg
+);
+    -ms-transform: rotate(4deg);
+    transform: rotate(
+4deg
+);
+    border-top-left-radius: 350px;
+    border-bottom-left-radius: 350px;
+    background-color: #f3f3f9;
+}
+
+/* rt-overlay right end */
+
 .feature-area .rt-overlay,
 .blog-area .rt-overlay,
 .dashbporad-area .rt-overlay
