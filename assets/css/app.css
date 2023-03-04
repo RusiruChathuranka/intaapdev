@@ -216,7 +216,11 @@ textarea
 {
     clear: both;
 }
+.home-two-feature .our-team-text{
+    text-align: center;
+    padding: 0px 100px 0 100px;
 
+}
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -1511,7 +1515,43 @@ p
 
     opacity: 1;
 }
+.about-us-right-img img{
+    border-radius: 15px;
+}
 
+/*team member*/
+.our-team{
+    display: flex;
+    align-items: center;
+}
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.team-member {
+    flex-basis: calc(20% - 10px);
+    margin-right: 89px;
+    margin-bottom: 20px;
+}
+.member-name{
+    margin-top: 15px;
+    text-align: center;
+}
+.team-member img {
+    border-radius: 15px;
+}
+
+.team-member:last-child {
+    margin-right: 0;
+}
+/*team member*/
+.row.about-us-first {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+  }
 .rt-outline-gradientS
 {
     position: relative;
@@ -3491,7 +3531,7 @@ span.menu-title
 }
 .services-block-4 .icon-thumb img
 {
-    height: 50px;
+    height: 70px;
 }
 .services-block-4 h3
 {
@@ -3960,7 +4000,7 @@ display: none;
 {
     position: relative; 
 
-    padding-bottom: 250px;
+    padding-bottom: 100px;
 }
 .promo-data-area .promo-shape
 {
@@ -4204,6 +4244,7 @@ display: none;
                 box-shadow: 0 0 196px 0 rgba(0, 0, 0, .1);
     }
 }
+
 .single-counter h5
 {
     font-size: 90px;
@@ -7036,10 +7077,7 @@ a.cmnt-link-share i.fa
 
     margin-bottom: 30px;
 }
-.rt-single-widget .rt-footer-logo
-{
-    /* margin-bottom: 30px; */
-}
+
 .rt-single-widget .rt-footer-title
 {
     font-size: 16px;

@@ -4,8 +4,8 @@
         <nav class="navbar navbar-expand-lg rt-one-page-menu">
             <div class="container">
         
-                <a href="#home" class="brand-logo smooth-scroll"><img src="assets/images/logo/intap-logo-white.png" alt=""></a>
-                <a href="#home" class="sticky-logo smooth-scroll"><img src="assets/images/logo/intap-logo-white.png" alt=""></a>
+                <a href="#home" class="brand-logo smooth-scroll"><img src="assets/images/logo/intaap-logo-white.png" style="width:90px; height:90px;" alt=""></a>
+                <a href="#home" class="sticky-logo smooth-scroll"><img src="assets/images/logo/intaap-logo-white.png" style="width:90px; height:90px;" alt=""></a>
         
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNav"
                     aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +28,13 @@
                             </div>
                         </li> -->
                         <li class="nav-item"><a href="#home" class="nav-link smooth-scroll">Home</a></li>
-                        <li class="nav-item"><a href="#feature" class="nav-link smooth-scroll">Skills</a></li>
+                        <li class="nav-item"><a href="#feature" class="nav-link smooth-scroll">Data Control</a></li>
                         <li class="nav-item"><a href="#customer-journey" class="nav-link smooth-scroll">Customer Journey</a></li>
                         <li class="nav-item"><a href="#services" class="nav-link smooth-scroll">Services</a></li>
                         <li class="nav-item"><a href="#fAQ" class="nav-link smooth-scroll">FAQ</a></li>
                     </ul>
                     <div class="rt-menu-tolls">
-                        <a href="#download" class="rt-btn rt-gradient pill text-uppercase smooth-scroll">Schedule a call</a>
+                        <a href="#fAQ" class="rt-btn rt-gradient pill text-uppercase smooth-scroll">Schedule a call</a>
                     </div>
                 </div>
         

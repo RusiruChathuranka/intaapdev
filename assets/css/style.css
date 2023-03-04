@@ -1,0 +1,137 @@
+.tab-content p{
+    display: none;
+}
+.tab-content h3{
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .tab-content img{
+        display: none;
+    }
+    .tab-content p{
+        display: block;
+        text-align: center;
+    }
+    .tab-content h3{
+        display: block;
+        text-align: center;
+    }
+    .services-area .rt-section-title {
+        line-height: 35px;
+    }
+
+    .promo-data-text .rt-section-title{
+        line-height: 35px;
+    }
+    
+    .feature-area .rt-overlay-right, .blog-area .rt-overlay-right, .dashbporad-area .rt-overlay-right{
+        position: unset;
+    }
+    .col-md-7 {
+        order: 1;
+      }
+
+    .promodata-img img{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    .rt-round-icon-tabs .nav-item{
+        width: 25%;
+        margin-bottom: 20px;
+    }
+
+    .rt-round-icon-tabs li.nav-item span{
+        display: none;
+    }
+    .spacer-85{
+        height: 50px;
+    }
+
+    .promo-data-text{
+        text-align: center;
+    }
+
+    .spacer-85{
+        margin-top: 0 !important;
+        height: 50px !important;
+    }
+
+    .infoarea{
+        margin-top: 0;
+    }
+
+    .footer-bottom{
+        text-align: center;
+    }
+
+    .home-three{
+        text-align: center;
+    }
+}
+
+/* for tabs */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        offset: auto;
+    }
+    .feature-area .rt-overlay-right, .blog-area .rt-overlay-right, .dashbporad-area .rt-overlay-right{
+        position: unset;
+    }
+
+    .web-development .col-md-9{
+        max-width: 59%;
+        padding-right: 30px;
+    }
+
+    .web-development .col-md-3{
+        max-width: 50%;
+    }
+
+   .promo-data-text{
+    margin-left: -50px;
+   }
+
+   .rt-custom-container .nav{
+    flex-wrap: unset;
+   }
+
+   .blog-area .col-md-6{
+    max-width: 33%;
+   }
+
+   .blog-style-1 .inner-content .blog-footer h3{
+    font-size: 16px;
+    line-height:20px !important;
+   }
+
+   .infoarea .col-md-6{
+    left: 25%;
+    right: 25%;
+    display: block;
+    max-width: 100%;
+    flex: none;
+    
+   }
+   .container{
+    overflow: hidden;
+   }
+
+   .footer-bottom .info-1{
+    flex: 0 0 23%;
+    max-width: 23%;
+   }
+
+   .footer-bottom .info-2{
+    flex: 0 0 52%;
+    max-width: 52%;
+   }
+
+   .footer-bottom .footer-about{
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+   }
+  }
